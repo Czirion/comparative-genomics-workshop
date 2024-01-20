@@ -57,7 +57,7 @@ Interested in teaching these materials? We have a
 | [Introduction to the Command Line for Pangenomics](https://czirion.github.io/shell-pangenomics/) | Learn to navigate your file system, create, copy, move, and remove files and directories, and automate repetitive tasks using scripts and wildcards. | 4:00 hrs |
 | [Pangenome Analysis in Prokaryotes](https://paumayell.github.io/pangenomics/) | Use command-line tools to download and annotate prokaryotic genomes. Learn pangenome analyses and visualizations. |04:30 hrs|  
 | [Introduction to Python](https://czirion.github.io/pangenomics-python/) | Learn the basics of the Python language. |01:00 hrs| 
-| [Topological Data Analysis for Comparative Genomics](https://paumayell.github.io/topological-data-analysis/) | Learn how to apply the Topological Data Analysis in Pangenomics analysis. |04:30 hrs| 
+| [Topological Data Analysis for Pangenomics](https://paumayell.github.io/topological-data-analysis/) | Learn how to apply the Topological Data Analysis in Pangenomics analysis. |04:30 hrs| 
 
 
 
