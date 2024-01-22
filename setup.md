@@ -175,6 +175,39 @@ Options:
 * Use anvi’o from the active development branch (best option for developers).  
 * Run anvi’o through its Docker containers without any installation (best option for the lazy).  
 
+#### **Install RGI**
+
+To conda install RGI, you must install mamba in base environment. Afterwards, create a new
+environment and install RGI into it using mamba:
+
+~~~
+conda activate base
+conda install mamba
+mamba create -n rgi -c anaconda -c bioconda -c conda-forge rgi
+~~~
+{: .language-bash}
+
+Test RGI by running the following commands:
+
+~~~
+conda activate rgi
+rgi main --help
+~~~
+{: .language-bash}
+
+If you get an error stating *"ImportError: libffi.so.6: cannot open shared object file: No such file or directory"*,
+you will have to install the `libffi6` package on your system. On Ubuntu and derivatives, you may install
+it as follows:
+
+~~~
+wget https://mirrors.kernel.org/ubuntu/pool/main/libf/libffi/libffi6_3.2.1-8_amd64.deb
+apt install ./libffi6_3.2.1-8_amd64.deb
+rm libffi6_3.2.1-8_amd64.deb
+~~~
+{: .language-bash}
+
+Retry test running RGI; you should not see the same error again.
+
 ## Connection to JupyterHub in CCM's servers (Notebooks and Terminal)
 Open the JupyterHub server login site in a new tab with [this link](https://lab.matmor.unam.mx:8443/hub/login).
 Open this [Google sheet](https://docs.google.com/spreadsheets/d/1Lg633gpV8KrUqTn34PDM8V0glAkTZpHcm4CViRRz1N0/edit#gid=1473209790) in a new tab and write your name in a user.
