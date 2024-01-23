@@ -35,6 +35,7 @@ If you are not in a Data Carpentry Workshop, the software you need is listed in 
 |[Anvi'o](https://anvio.org/)| version |[Pangenomics Workflow Manual](https://merenlab.org/2016/11/08/pangenomics-v2/)|Linux & MacOS| *multi-omics* analysis including Pangenomics|
 |[GET_HOMOLOGUES](https://github.com/eead-csic-compbio/get_homologues)|version|[GitHuB](http://eead-csic-compbio.github.io/get_homologues/manual/)|Available for| Sequence clustering|
 |[PPanGGOLiN](https://github.com/labgem/PPanGGOLiN)|version |[GitHub Wiki](https://github.com/labgem/PPanGGOLiN/wiki)|Available for| Pangenomics |
+|[RGI](https://github.com/arpcard/rgi/)|6.0.3|[GitHub](https://github.com/arpcard/rgi/)|Windows, MacOS, Linux|Resistome annotation|
 
 
 ### Option A: Using the lessons with Amazon Web Services (AWS)
@@ -190,7 +191,7 @@ mamba create -n rgi -c anaconda -c bioconda -c conda-forge rgi
 Test RGI by running the following commands:
 
 ~~~
-conda activate rgi
+conda activate /miniconda3/envs/rgi/
 rgi main --help
 ~~~
 {: .language-bash}
