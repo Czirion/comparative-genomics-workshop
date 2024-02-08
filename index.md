@@ -3,7 +3,7 @@
 
 Data Carpentry’s aim is to teach researchers basic concepts, skills, and tools 
 for working
-with data so that they can get more done in less time, and with less pain. This workshop uses 
+with data so that they can get more done in less time and with less pain. This workshop uses 
 Data Carpentry's approach to
 teach data management for **pangenome analysis in prokaryotes** including: 
 best practices for the organization of bioinformatics projects and data, 
@@ -12,14 +12,12 @@ organize this diversity in the core and dispensable set of a pangenome,
 and connecting to and using cloud computing. 
 This workshop is designed to be taught over two full days of instruction.
 
-**Please note that workshop materials for working with Pangenome Analysis in Prokaryotes data are in “alpha” development. 
-These lessons are available for review and for informal teaching experiences but are not yet part 
+**Please note that workshop materials for working with Pangenome Analysis in Prokaryotes data are in “beta” development. 
+These lessons are available for review and informal teaching experiences but are not yet part 
 of The Carpentries’ official lesson offerings.**
 
-Interested in teaching these materials? We have a 
-[Slack channel](https://metagenomicslesson.slack.com/archives/C023H1DRD1V), where we will be happy to help you! 
-## Schedule  
-[Checkout the schedule of the Workshop](https://docs.google.com/document/d/1pv9IZXRTqFwl2credU1KUboRg_aAgI5zPNADd3z2sOg/edit)
+Would you be interested in teaching these materials? We have a 
+[Slack channel](https://metagenomicslesson.slack.com/archives/C023H1DRD1V), where we will gladly help you! 
 
 
 > ## Frequently Asked Questions
@@ -32,7 +30,7 @@ Interested in teaching these materials? We have a
 > This lesson assumes that learners have no prior experience with the tools covered in the workshop. 
 > However, learners are expected to have some familiarity with biological concepts,
 > including the concepts of prokaryotic genome and gene family. 
-> Participants should bring their own laptops and plan to participate actively.  
+> Participants should bring their laptops and plan to participate actively.  
 > 
 {: .prereq}
 
