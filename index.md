@@ -45,7 +45,7 @@ Would you be interested in teaching these materials? We have a
 > describe the genetic repertoire of a species. 
 > All of the data used in this workshop can be downloaded from:
 >  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7620503.svg)](https://doi.org/10.5281/zenodo.7620503)
-> More information about this data is available on the [Data page](https://czirion.github.io/pangenomics-workshop/data/index.html).
+> More information about this data is available on the [Data page](https://carpentries-incubator.github.io/pangenomics-workshop/data/index.html).
 {: .prereq} 
 
 # Workshop Overview 
