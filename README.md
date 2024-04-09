@@ -34,13 +34,11 @@ Current maintainers of this lesson are
 * [Claudia Zirión Martínez](https://github.com/Czirion)
 * [Andrés Arredondo Cruz](https://github.com/andrespan)
 * [Paulina Mayell Mejía Ponce](https://github.com/paumayell)
-* [Diego Garfias Gallegos](https://github.com/Bedxxe)
 * [Marisol Flores]()
 * [Haydeé Peruyero](https://github.com/HaydeePeruyero)
 * [Shaday Guerrero Flores](https://github.com/shadayguerrero)
 * [José María Ibarra]()
 * [Axel Alejandro Ramos]()
-* [Zaki Santamaria]()
 
 
 A list of contributors to the lesson can be found in [AUTHORS](AUTHORS)
