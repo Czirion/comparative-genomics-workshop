@@ -36,7 +36,7 @@ Current maintainers of this lesson are
 * [Paulina Mayell Mejía Ponce](https://github.com/paumayell)
 * [Diego Garfias Gallegos](https://github.com/Bedxxe)
 * [Marisol Flores]()
-* [Haydee Peruyero](https://github.com/HaydeePeruyero)
+* [Haydeé Peruyero](https://github.com/HaydeePeruyero)
 * [Shaday Guerrero Flores](https://github.com/shadayguerrero)
 * [José María Ibarra]()
 * [Axel Alejandro Ramos]()
