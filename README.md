@@ -11,8 +11,9 @@ Zenodo link:  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6636296.svg)](
 Overview page of the Pangenomics Workshop that comprises the lessons:
 
 - [Introduction to the Command Line for Pangenome Analysis in Prokaryotes](https://czirion.github.io/shell-pangenomics/) [Repository](https://github.com/Czirion/shell-pangenomics/)
-- [Introduction to Python](https://czirion.github.io/pangenomics-python/) [Repository](https://github.com/Czirion/pangenomics-python)
-- [Pangenome Analysis in Prokaryotes](https://paumayell.github.io/pangenomics/) [Repository](https://github.com/paumayell/pangenomics/)
+- [Introduction to Python](https://carpentries-incubator.github.io/pangenomics-python/) [Repository](https://github.com/carpentries-incubator/pangenomics-python.git)
+- [Pangenome Analysis in Prokaryotes](https://carpentries-incubator.github.io/pangenomics/) [Repository](https://github.com/carpentries-incubator/pangenomics-workshop.git)
+- [Topological Data Analysis for Pangenomics](https://carpentries-incubator.github.io/topological-data-analysis/) [Repository](https://github.com/carpentries-incubator/topological-data-analysis.git)
 
 ## Code of Conduct
 
@@ -25,7 +26,8 @@ Current maintainers of this lesson are
 * [Nelly Sélem Mojica](https://github.com/nselem)
 * [Claudia Zirión Martínez](https://github.com/Czirion)
 * [Paulina Mayell Mejía Ponce](https://github.com/paumayell)
-* [Haydee Contreras]()
+* [Haydee Contreras](https://github.com/HaydeePeruyero)
+* [Shaday Guerrero Flores](https://github.com/shadayguerrero)
 
 ## Authors
 * [Nelly Sélem Mojica](https://github.com/nselem)
@@ -35,7 +37,7 @@ Current maintainers of this lesson are
 * [Diego Garfias Gallegos](https://github.com/Bedxxe)
 * [Marisol Flores]()
 * [Haydee Peruyero]()
-* [Shaday Flores]()
+* [Shaday Guerrero Flores](https://github.com/shadayguerrero)
 * [José María Ibarra]()
 * [Axel Alejandro Ramos]()
 * [Zaki Santamaria]()
