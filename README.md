@@ -2,9 +2,9 @@ Symbols:
   💢 When there are things to fix  
   ❓ When there is information that needs to be verified  
   ✳️ When something needs to be developed
+https://zenodo.org/records/7974915
 
-
-Zenodo link:  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6636296.svg)](https://doi.org/10.5281/zenodo.6636296)
+Zenodo link:  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7620503.svg)](https://doi.org/10.5281/zenodo.7620503)
 
 # Pangenomics Workshop
 
@@ -12,7 +12,7 @@ Overview page of the Pangenomics Workshop that comprises the lessons:
 
 - [Introduction to the Command Line for Pangenome Analysis in Prokaryotes](https://carpentries-incubator.github.io/shell-pangenomics/) [Repository](https://github.com/carpentries-incubator/shell-pangenomics.git)
 - [Introduction to Python](https://carpentries-incubator.github.io/pangenomics-python/) [Repository](https://github.com/carpentries-incubator/pangenomics-python.git)
-- [Pangenome Analysis in Prokaryotes](https://carpentries-incubator.github.io/pangenomics/) [Repository](https://github.com/carpentries-incubator/pangenomics-workshop.git)
+- [Pangenome Analysis in Prokaryotes](https://carpentries-incubator.github.io/pangenomics/) [Repository](https://github.com/carpentries-incubator/pangenomics)
 - [Topological Data Analysis for Pangenomics](https://carpentries-incubator.github.io/topological-data-analysis/) [Repository](https://github.com/carpentries-incubator/topological-data-analysis.git)
 
 ## Code of Conduct
