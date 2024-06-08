@@ -1,9 +1,3 @@
-Symbols: 
-  💢 When there are things to fix  
-  ❓ When there is information that needs to be verified  
-  ✳️ When something needs to be developed
-https://zenodo.org/records/7974915
-
 Zenodo link:  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7620503.svg)](https://doi.org/10.5281/zenodo.7620503)
 
 # Pangenomics Workshop
