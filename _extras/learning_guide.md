@@ -21,7 +21,7 @@ and some topological data analysis episodes.
   </a>
 
   
-Lessons 1 and 2, which cover an introduction to Bash and Python, are not optional. If you already have knowledge of these languages, you can start directly with Lesson 3 on pPangenome Analysis in Prokaryotes. Lesson 4 provides an introduction to topological data analysis and its applications to pangenomics. One way to follow the workshop is to complete episodes 1, 2, and 3 of Lesson 3, and then move on to the TDA lesson.
+Lessons 1 and 2, which cover an introduction to Bash and Python, are optional. If you already have knowledge of these languages, you can start directly with Lesson 3 on pPangenome Analysis in Prokaryotes. Lesson 4 provides an introduction to topological data analysis and its applications to pangenomics. One way to follow the workshop is to complete episodes 1, 2, and 3 of Lesson 3, and then move on to the TDA lesson.
 
 
 Episodes 4 (Measuring Sequence Similarity) and 5 (Clustering with BLAST Results) of Lesson Pangenome Analysis in Prokaryotes serve as an introduction to constructing a pangenome using a test set of genes rather than the complete dataset. This test or mini pangenome is utilized in the chapters of the TDA section. However, in those chapters, you will also find a link to the database of this mini pangenome in case you haven't completed these episodes.These episodes use Python, so if you are not familiar with it, you can refer to the introductory Python lesson.
