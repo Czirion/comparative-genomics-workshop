@@ -9,7 +9,7 @@ Servers are provided by "The Collaborative Community for Genomic Bacterial Analy
 and the sub-community "The Carpentries México"
 For individuals choosing to follow the lessons on a different computer, step-by-step instructions 
 for configuring remote machines. An alternative installation with complete Conda environments is provided here.
-Additionally, a Docker container is available in `FIXME`. 
+Additionally, the Docker container aapashkov/panworkshop is available in Dockerhub and has an image of all the workshop dependencies.
 
 This workshop can also be run on Amazon Web Services (AWS) instances using the docker image
 (a computer with all the required programs and files to which you will have access from your computer). 
