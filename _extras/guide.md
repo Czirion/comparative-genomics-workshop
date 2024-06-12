@@ -7,20 +7,8 @@ title: "Instructor Notes"
 
 ## Technical tips and tricks
 
-The parent directory of everything that we will be using during the lesson is `/home/dcuser/dc_workshop`❓. At the beginning of the workshop make sure it looks like this: 
+The parent directory of everything that we will be using during the lesson is `/home/user/pan_workshop`❓. 
 
-FIXME: `tree` command of the `dc_workshop`❓ folder. 💢
-
-* Commands with ">>" : Whenever there is a command that appends contents to a file it is possible that if the learners make a typo and then run the correct command, the resulting file will have erroneous content. So when a command like that appears ask the learners to erase the file if they made a mistake, before they repeat te command. 
-
-## Slides
-Here you can find a set of [slides](https://docs.google.com/presentation/d/1MYsxgJ8rOu4cmGQw4S9EXcRtvd8CNNlEtgzbeuBiJgE/edit#slide=id.p)
-with the figures of the lesson.  
-## Installation
-
-This workshop is designed to be run on pre-imaged Amazon Web Services (AWS) instances. See the 
-[Setup page](https://czirion.github.io/comparative-genomics-workshop/setup.html) for complete setup instructions. If you are
-teaching these lessons, and would like an AWS instance to practice on, please contact [team@carpentries.org](mailto: team@carpentries.org).
 
 ## Common problems
 
@@ -31,19 +19,12 @@ To help ensure that all learners are able to work through the whole process, we 
 of the output files for each step in the data processing pipeline, as well as the scripts that the learners write collaboratively
 with the Instructors throughout the workshop. These files are available on the hidden `.backup_dc_workshop`directory.
 
-Make sure to tell your helpers about the `.backup_dc_workshop` directory so that they can use these resources to help
+Make sure to tell your helpers about the `.backup_pan_workshop` directory so that they can use these resources to help
 learners catch up during the workshop. 
 # Notes for the Workshop
-The tree of the directories whe you download the data should look like:
 
-If you are teaching the lesson with the CCM-UNAM server you can use this [spreadsheet](https://docs.google.com/spreadsheets/d/1uiBMjlIh3U5JufVoDl9BTncHPCmYm9GT-LHUkOwWnnU/edit#gid=0) to ask the participants to choose their user:
+If you are teaching the lesson with the CCM-UNAM server you can use this [spreadsheet](https://docs.google.com/spreadsheets/d/1Lg633gpV8KrUqTn34PDM8V0glAkTZpHcm4CViRRz1N0/edit?gid=1473209790#gid=1473209790) to ask the participants to choose their user.
 
-# Notes for the Pangenome Analysis in Prokaryotes lesson
-
-FIXME: Add 💢
-- Usar un concepto en otro contexto: Aplicar un concepto en un contexto distinto al que se enseñó puede
-requerir que el estudiante haga búsquedas en internet o en los manuales del código. Por ejemplo, se puede
-pedir que utilicen diferentes parámetros para modificar una gráfica previamente mostrada.
 
 {% include links.md %}
 
