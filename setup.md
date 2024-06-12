@@ -4,25 +4,33 @@ title: Setup
 ---
 
 ## In a Data Carpentry Workshop  
-This workshop is designed to be run on pre-imaged Amazon Web Services (AWS)
-instances (a computer with all the required programs and files to which you will have access from your computer). 
-Except for a spreadsheet program and an internet browser, all of the command 
-line software and data used in the workshop are hosted on an Amazon 
-Machine Image (AMI). If you are signed up to take 
-a Pangenomics Data Carpentry Workshop, **you do not need to worry about setting
-up an AMI instance.** The Carpentries staff will create an instance 
-for you, which will be provided at no cost. 
-This setup is true for both self-organized and centrally-organized workshops. 
-Your Instructor will provide instructions for connecting to the AMI instance at the workshop.
+Free server access is offered upon request for workshops, and self-learners can also request temporary accounts. 
+Servers are provided by "The Collaborative Community for Genomic Bacterial Analysis and Practice" 
+and the sub-community "The Carpentries México"
+For individuals choosing to follow the lessons on a different computer, step-by-step instructions 
+for configuring remote machines. An alternative installation with complete Conda environments is provided here.
+Additionally, a Docker container is available in XXXXXXX. 
 
-If you are in The Carpentries-Workshop, you do not even need to install a bash terminal; the R-studio terminal provided in the AWS-AMI is enough to run all the commands in the lesson. 
-Instead of connecting by `ssh`, users can simply use the R-studio AMI terminal. 
+This workshop can also be run on Amazon Web Services (AWS) instances using the docker image
+(a computer with all the required programs and files to which you will have access from your computer). 
+Except for a spreadsheet program and an internet browser, all of the command 
+line software and data used in the workshop are hosted on the Docker 
+
+If you are signed up to take a Pangenomics Data Carpentry Workshop,
+**you do not need to worry about setting up an AMI instance.** 
+The Carpentries México staff will create an instance on our local servers for you, which will be free. 
+This setup is true for both self-organized and centrally-organized workshops. 
+Your instructor will provide instructions on how to connect to the AMI instance at the workshop.
+
+If you are in The Carpentries-Workshop, you do not even need to install a bash terminal; 
+the Jupyter-Notebook terminal provided in the AMI is enough to run all the commands in the lesson. 
+Instead of connecting by `ssh`, users can simply use the Jupyter Notebook AMI terminal. 
 
 This lesson requires a working spreadsheet program. 
 If you don't have a spreadsheet program already, you can use LibreOffice. 
 It's a free, open-source spreadsheet program.
 
-## Running the lesson by yourself (Not in a Data Carpentry Workshop)
+## Running the lesson by yourself (Not in a Data Carpentry Workshop)  `FIXME` 
 
 ### Required  software  
 If you are not in a Data Carpentry Workshop, the software you need is listed in the table below. **Follow the instructions in Option A *or* Option B** to have access to these programs.  
