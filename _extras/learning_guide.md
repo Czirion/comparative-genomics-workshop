@@ -17,7 +17,7 @@ The workshop is divided in 1) an introduction to Command-Line and Python for tho
 previous coding experiences and  2)  two topic lessons, including pangenome analysis and topological data analysis.
 
 <a href="{{ page.root }}/fig/01-01-01.png">
-   <img src="{{ page.root }}/fig/PanWorkshopWorkflow.png" alt=" Workflow of the lessons in the episode. You can skip these lessons if you are already familiar with Python or Bash. Once in the pangenome lesson, if you have interest in applications of mathematics and topology read the Topological Data Analysos episodes, otherwise skip them and end in the other resources final episode. " />
+   <img src="{{ page.root }}/fig/01-01-01-Learner_guide.png" alt=" Workflow of the lessons in the episode. You can skip these lessons if you are already familiar with Python or Bash. Once in the pangenome lesson, if you have interest in applications of mathematics and topology read the Topological Data Analysos episodes, otherwise skip them and end in the other resources final episode. " />
   </a>
 
   
