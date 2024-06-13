@@ -3,10 +3,7 @@ layout: page
 title: Frequently Asked Questions
 ---
 
-
-# FIXME ...
-
-Thank you for your interest in hosting or teaching a Metagenomics workshop. Below you will find answers to some frequently asked questions about this curriculum. If the answer to your question doesn’t appear, please contact us using the Contact link in the righthand lower corner of this page.
+Thank you for your interest in hosting or teaching our Pangenomics Workshop. Below you will find answers to some frequently asked questions (FAQs) about this curriculum. If the answer to your question doesn’t appear here, please contact us using the Contact link in the righthand lower corner of this page.
 
 * [For Hosts](#hosts)
 * [For Instructors](#instructors)
@@ -15,16 +12,29 @@ Thank you for your interest in hosting or teaching a Metagenomics workshop. Belo
 
 ### What does this workshop cover? 
 
-This workshop teaches data management and analysis for pangenomics research, including best practices for the organization of bioinformatics projects and data, an introduction to the programming languages Bash and Python, the use of command line tools to process, analyze, and visualize metagenomics data, and connecting to and using cloud computing. 
+The Pangenomics Workshop covers essential skills for pangenomics research, including: 
+* Best practices for organizing bioinformatics projects and data
+* An introduction to Bash and Python programming languages
+* An overview of the history, key concepts, and research application of Pangenomics, including practical examples
+* Basic concepts and application of Topological Data Analysis (TDA) in the Pangenomics field
+* Using command line tools to process, analyze, and visualize pangenomics data
+* Connecting to and using cloud computing resources 
 
-### What experience do learners need to have before this workshop? What will they be able to do by the end of the workshop? 
+### Who is this workshop for and what experience is needed? 
 
-Attendants to this lesson require no prior experience with the tools covered in the workshop. However, learners are expected to have some familiarity with biological concepts, such as DNA sequences and bacterial diversity. By the end of the workshop, learners will be able to: 
+This workshop is designed for individuals interested in Pangenomics research. Attendees do not need prior experience with the tools covered in the workshop. However, some familiarity with biological concepts, suchs as DNA sequences and gene diversity, is expected. 
 
-- structure their metadata, organize and document their genomics data and bioinformatics workflow, and access data on the NCBI sequence read archive (SRA) database,
-- navigate their file systems, create, copy, move, and remove files and directories, and automate repetitive tasks using scripts and wildcards,
-- use command-line tools to perform sequence quality control, assemble a metagenome, perform metagenomic binning, assess the quality of MAGs, perform taxonomic assignment to sequences, visualize taxonomic abundance,
-- work with Amazon AWS cloud computing and transfer data between their local computer and cloud resources.
+### What will learners be able to do by the end of the workshop?
+
+By the end of the workshop, learners will be able to: 
+
+- Download genomic sequences from the NCBI database
+- Structure, organize, and document their genomic data and metadata
+- Understand what a bioinformatic workflow is
+- Use the terminal to navigate, create, copy, move, and remove files and directories
+- Create simple and useful scripts and wildcards to automate repetitive tasks
+- Use command-line tools to perform genome annotation, homology searches, clustering of gene families and pangenome computing, analysis and visualization
+- Apply TDA concepts in the context of Pangenomics to conduct Horizontal Gene Transfer analaysis
 
 ### What are this workshop's software, hardware, and connectivity needs?
 
