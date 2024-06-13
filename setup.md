@@ -3,74 +3,85 @@ layout: page
 title: Setup
 ---
 
-## In a Data Carpentry Workshop  
-Free server access is offered upon request for workshops, and self-learners can also request temporary accounts. 
-Servers are provided by "The Collaborative Community for Genomic Bacterial Analysis and Practice" 
-and the sub-community "The Carpentries México"
-For individuals choosing to follow the lessons on a different computer, step-by-step instructions 
-for configuring remote machines. An alternative installation with complete Conda environments is provided here.
-Additionally, the Docker container aapashkov/panworkshop is available in Dockerhub and has an image of all the workshop dependencies.
+## In a Data Carpentry Workshop
 
-This workshop can also be run on Amazon Web Services (AWS) instances using the docker image
-(a computer with all the required programs and files to which you will have access from your computer). 
-Except for a spreadsheet program and an internet browser, all of the command 
-line software and data used in the workshop are hosted on the Docker 
+During a Data Carpentry Workshop, you'll be supplied with a server by CCM UNAM.
+Your Instructor will provide instructions for connecting to an instance at the
+workshop. You'll need an up-to-date web browser (Firefox, Safari, Chrome or
+Edge), and a working spreadsheet program. If you don't have the latter, you can
+install [LibreOffice](https://www.libreoffice.org/download/download-libreoffice/),
+a free and open source office suite which includes a spreadsheet program called
+Calc.
 
-If you are signed up to take a Pangenomics Data Carpentry Workshop,
-**you do not need to worry about setting up an AMI instance.** 
-The Carpentries México staff will create an instance on our local servers for you, which will be free. 
-This setup is true for both self-organized and centrally-organized workshops. 
-Your instructor will provide instructions on how to connect to the AMI instance at the workshop.
+## Running the lesson by yourself (Not in a Data Carpentry Workshop)
 
-If you are in The Carpentries-Workshop, you do not even need to install a bash terminal; 
-the Jupyter-Notebook terminal provided in the AMI is enough to run all the commands in the lesson. 
-Instead of connecting by `ssh`, users can simply use the Jupyter Notebook AMI terminal. 
+### Required software and packages
 
-This lesson requires a working spreadsheet program. 
-If you don't have a spreadsheet program already, you can use LibreOffice. 
-It's a free, open-source spreadsheet program.
+The following tables lists all the required software for the workshop.
 
-## Running the lesson by yourself (Not in a Data Carpentry Workshop)  `FIXME` 
+|Software|Version|Manual|Available for|Description|
+|:--------|:------------|:------|:-------------|:-----------|
+|[BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi)|2.12|[BLAST Command Line Applications User Manual](https://www.ncbi.nlm.nih.gov/books/NBK279690/)|Linux, MacOS & Windows|Similarity regions identifier between biological sequences|
+|[Prokka](https://github.com/tseemann/prokka)|1.14.6|[GitHub](https://github.com/tseemann/prokka#invoking-prokka)|Linux, MacOS & Windows|Bacterial, archaeal and viral assembly annotation|
+|[ncbi-genome-download](https://github.com/kblin/ncbi-genome-download)|0.3.3|[GitHub](https://github.com/kblin/ncbi-genome-download#usage)|Linux, MacOS & Windows|Downloading genomes from the NCBI|
+|[Anvi'o](https://anvio.org/)|7.1|[Pangenomics Workflow Manual](https://merenlab.org/2016/11/08/pangenomics-v2/)|Linux & MacOS|Multi-omics analysis including pangenomics|
+|[GET_HOMOLOGUES](https://github.com/eead-csic-compbio/get_homologues)|3.6.2|[GitHub](http://eead-csic-compbio.github.io/get_homologues/manual/)|Linux, MacOS & Windows|Sequence clustering|
+|[PPanGGOLiN](https://github.com/labgem/PPanGGOLiN)|2.0.5|[GitHub Wiki](https://github.com/labgem/PPanGGOLiN/wiki)|Linux & MacOS|Pangenomics|
+|[RGI](https://github.com/arpcard/rgi/)|6.0.3|[GitHub](https://github.com/arpcard/rgi/)|Linux, MacOS & Windows|Resistome annotation|
+|[Python](https://www.python.org/)|At least 3.7|[Python Docs](https://docs.python.org/)|Linux, MacOS & Windows|General-purpose programming language|
 
-### Required  software  
-If you are not in a Data Carpentry Workshop, the software you need is listed in the table below. **Follow the instructions in Option A *or* Option B** to have access to these programs.  
+You will also need the following Python packages to be available: gudhi,
+jupyter, matplotlib, networkx, numpy, pandas, plotly, requests, scikit-learn,
+scipy, and seaborn.
 
+While you could install each of these requirements manually, it is a highly
+laborious process; thus we provide a ready-to-use
+[Docker image](https://hub.docker.com/repository/docker/aapashkov/panworkshop)
+with all of these dependencies included. A Docker **image** is a file used to
+create a Docker **container**, which is an encapsulated environment storing
+everything a project or software needs for it to function. Follow the
+instructions of the section labeled **Option A** to learn how to set up a Docker
+container for our workshop, or read the section **Option B** if you prefer to
+install everything by yourself.
 
-| Software | Version | Manual | Available for | Description |
-| -------- | ------------ | ------ | ------------- | ----------- |
-| [Prokka](https://github.com/tseemann/prokka) | 1.14.6 | [GitHub](https://github.com/tseemann/prokka#invoking-prokka) | Linux, MacOC, Windows | Bacterial, archaeal and viral assembly annotation |
-|[ncbi-genome-download](https://github.com/kblin/ncbi-genome-download)  | version | [GitHub](https://github.com/kblin/ncbi-genome-download#usage) | Available for | Downloading genomes from the NCBI |
-|[Anvi'o](https://anvio.org/)| version |[Pangenomics Workflow Manual](https://merenlab.org/2016/11/08/pangenomics-v2/)|Linux & MacOS| *multi-omics* analysis including Pangenomics|
-|[GET_HOMOLOGUES](https://github.com/eead-csic-compbio/get_homologues)|version|[GitHuB](http://eead-csic-compbio.github.io/get_homologues/manual/)|Available for| Sequence clustering|
-|[PPanGGOLiN](https://github.com/labgem/PPanGGOLiN)|version |[GitHub Wiki](https://github.com/labgem/PPanGGOLiN/wiki)|Available for| Pangenomics |
-|[RGI](https://github.com/arpcard/rgi/)|6.0.3|[GitHub](https://github.com/arpcard/rgi/)|Windows, MacOS, Linux|Resistome annotation|
+### Option A: Running the Docker image
 
+1. If you haven't done so already, install Docker Engine or Docker Desktop on
+your system by following [these instructions](https://docs.docker.com/engine/install/).
+2. Next, open a terminal (in Linux and MacOS) or PowerShell (in Windows) in an
+empty folder, and type the following command to start a container from our
+image, replacing `NAME` with any memorable name you wish (the first time you
+execute this command, it will take a while as it will download the entire
+image):
+    ~~~
+    docker run -itv $(pwd):/root --name NAME aapashkov/panworkshop
+    ~~~
+    {: .language-bash}
+3. You are now connected to the Docker container, and are ready to get started
+with the workshop! Type `exit` to leave the container. If you wish to connect
+back to it, please type the following two commands (replacing `NAME` with the
+name you chose in step 2):
+    ~~~
+    docker start NAME
+    docker attach NAME
+    ~~~
+    {: .language-bash}
+4. To delete a container after you have exited it, run this command (once again,
+use the same `NAME` as from step 2):
+    ~~~
+    docker rm NAME
+    ~~~
+    {: .language-bash}
 
-### Option A: Using the lessons with Amazon Web Services (AWS)
-
-Follow these [instructions on creating an Amazon instance](https://czirion.github.io/pangenomics-workshop/AMI-setup/index.html). Use the AMI `FIXME` named `FIXME` listed on the Community AMIs page. Please note that you must set your location as `N. Virginia` to access this community AMI. You can change your location in the upper right corner of the main AWS menu bar. The cost of using this AMI for a few days, with the t2.medium instance type, is very low (about USD $2.00 per user per day). Data Carpentry has *no* control over AWS pricing structure and provides this cost estimate without guarantees. Please read AWS documentation on pricing for up-to-date information. 
-
-If you're an Instructor or Maintainer or want to contribute to these lessons, please contact us at [team@carpentries.org](mailto:team@carpentries.org), and we will start instances for you. 
-
-In this instance, you can use the terminal available in RStudio, and users won't need
-to install their own terminals or use `ssh` (see [Instructor Notes](https://czirion.github.io/pangenomics-workshop/guide/index.html)). **If, nevertheless, you
-prefer that the users install their own terminals**, directions to install them are included 
-for each Windows, Mac OS X, and Linux below in the Option B section. For Windows, you will need to install Git Bash, PuTTY, or the Ubuntu Subsystem.
-
-### Option B: Following the lessons on your local machine  
-If you trust that your computer is powerful enough and want to have all the programs installed, you can follow all the workshops without using an
-AWS remote machine. To do this, you will need to install all of the software used in the workshop and obtain a copy of the
-dataset. Instructions for doing this are below.  
-
+### Option B: Installing dependencies manually
 
 #### **Data**   
-The data used in this workshop are available on Zenodo. Please read the Zenodo 
+The data used in this workshop is available on Zenodo. Please read the Zenodo 
 page linked below for information about the data and access to the data files. Because this workshop works 
 with real data, be aware that file sizes for the data are large.
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7620503.svg)](https://doi.org/10.5281/zenodo.7620503)
 
 More information about these data will be presented in the [first episode of the Pangenome Analysis in Prokaryotes lesson](https://paumayell.github.io/pangenomics/01-introduction/index.html).  
-
 
 #### **Install a Bash terminal** 
 
@@ -111,8 +122,7 @@ More information about these data will be presented in the [first episode of the
 >  - The default shell is usually Bash, and there is usually no need to install anything. To see if your default shell is Bash type, echo $SHELL in a terminal and press the Enter key. If the message printed does not end with `/bash`, then your default is something else, and you can run Bash by typing `bash`.
 {: .solution}  
 
-
-#### **Install Miniconda3**
+#### Install Miniconda3
 
 These instructions assume familiarity with the command line and with installation 
 in general. There are different operating systems and many different versions
@@ -141,60 +151,68 @@ To make a [Conda](https://conda.io/projects/conda/en/latest/index.html) environm
 > See the video tutorial, [installing Miniconda3 on WSL Ubuntu](https://youtu.be/owQgZoE-GrY)
 {: .solution}  
 
-#### **Install NCBI-genome-download**
+#### Create the virtual environments
 
-There are two ways to install this package. The first one is with `pip`. It is recommended to upgrade the `pip` version to the newest one.
-Pip installation:
+First, make sure to set a faster dependency solver, add necessary channels,
+update conda, and install BLAST into your base environment.
+
 ~~~
-pip install --upgrade pip
-pip install .
-pip install ncbi-genome-download
+conda config --set solver libmamba
+conda config --add channels conda-forge
+conda config --add channels bioconda
+conda update --quiet --yes --all
+conda install --yes --name base blast=2.12
+~~~
+{: .language-bash}
+
+Download every `.yml` file found in
+[this link](https://github.com/carpentries-incubator/pangenomics-workshop/tree/gh-pages/files/docker/env)
+somewhere easily accessible. These files are environment definitions for the
+virtual environments to be used during the workshop. Next, open a terminal
+inside the directory where you downloaded these files, and create the virtual
+environments using the following command:
+
+~~~
+for file in *.yml; do
+    conda env create --quiet --yes --file "$file"
+done
 ~~~
 {: .language-bash}
 
-The other installation option is with Conda, you can refer to the website (highly recommended).
-Conda installation:
-~~~
-conda install -c bioconda ncbi-genome-download
-~~~
-{: .language-bash}  
-
-
-#### **Install Prokka**
-
-Conda installation:
-~~~
-conda install -c conda-forge -c bioconda -c defaults prokka
-~~~
-{: .language-bash}  
-MacOS installation:
-~~~
-sudo cpan Time::Piece XML::Simple Digest::MD5 Bio::Perl
-git clone https://github.com/tseemann/prokka.git $HOME/prokka
-$HOME/prokka/bin/prokka --setupdb
-~~~
-{: .language-bash}  
-
-You can test your installation by typing `prokka` and it should display its help screen.  
-
-
-#### **Install Anvi'o**
-Options:  
-* Install a stable release of anvi’o on a Mac, Linux, or Windows-running computer (best option for end users).  
-* Use anvi’o from the active development branch (best option for developers).  
-* Run anvi’o through its Docker containers without any installation (best option for the lazy).  
-
-#### **Install RGI**
-
-To conda install RGI, you must install mamba in base environment. Afterwards, create a new
-environment and install RGI into it using mamba:
+After this step, if you list your conda environments, you should expect
+something like the following:
 
 ~~~
-conda activate base
-conda install mamba
-mamba create -n rgi -c anaconda -c bioconda -c conda-forge rgi
+conda env list
 ~~~
 {: .language-bash}
+~~~
+# conda environments:
+#
+base                  *  /miniconda3
+Pangenomics_Global       /miniconda3/envs/Pangenomics_Global
+TDA                      /miniconda3/envs/TDA
+anvio-7.1                /miniconda3/envs/anvio-7.1
+ncbi-genome-download     /miniconda3/envs/ncbi-genome-download
+rgi                      /miniconda3/envs/rgi
+~~~
+{: .output}
+
+You should now perform two more steps to get up and running with your
+environments.
+
+#### Download and extract databases
+
+Download the `panworkshop-databases.tgz` file from
+[this Zenodo link](https://zenodo.org/records/11374283) and decompress it using
+the following command:
+
+~~~
+tar -C / -zxf panworkshop-databases.tgz
+~~~
+{: .language-bash}
+
+#### Test run RGI
 
 Test RGI by running the following commands:
 
@@ -204,9 +222,10 @@ rgi main --help
 ~~~
 {: .language-bash}
 
-If you get an error stating *"ImportError: libffi.so.6: cannot open shared object file: No such file or directory"*,
-you will have to install the `libffi6` package on your system. On Ubuntu and derivatives, you may install
-it as follows:
+If you get an error stating *"ImportError: libffi.so.6: cannot open shared
+object file: No such file or directory"*, you will have to install the `libffi6`
+package on your system. On Ubuntu and derivatives, you may install it as
+follows:
 
 ~~~
 wget https://mirrors.kernel.org/ubuntu/pool/main/libf/libffi/libffi6_3.2.1-8_amd64.deb
@@ -217,18 +236,29 @@ rm libffi6_3.2.1-8_amd64.deb
 
 Retry test running RGI; you should not see the same error again.
 
-## Connection to JupyterHub in CCM's servers (Notebooks and Terminal)
-Open the JupyterHub server login site in a new tab with [this link](https://lab.matmor.unam.mx:8443/hub/login).
-Open this [Google sheet](https://docs.google.com/spreadsheets/d/1Lg633gpV8KrUqTn34PDM8V0glAkTZpHcm4CViRRz1N0/edit#gid=1473209790) in a new tab and write your name in a user.
-Use this user information to log in to the JupyterHub site that you opened in the previous step.
+## Connection to JupyterHub in servers from CCM UNAM (Notebooks and Terminal)
+
+### User credentials
+
+As stated in the beginning of this page, during a workshop you'll be provided
+with user credentials for servers from CCM UNAM by your Instructor. If you wish
+to run the lessons by yourself, or are planning to be an Instructor of this
+workshop, please contact [nselem@matmor.unam.mx](mailto:nselem@matmor.unam.mx)
+in order to access the user credentials for the servers.
 
 ### Open a Bash Terminal
-Click on the button "New" (upper right within the "Files" section) and choose the option "Terminal" from the drop-down menu. A new tab with a terminal will open.
+
+Click on the button "New" (upper right within the "Files" section) and choose
+the option "Terminal" from the drop-down menu. A new tab with a terminal will
+open.
 
 ### Open a Jupyter Notebook with the TDA environment
-Click on the button "New" (upper right within the "Files" section) and choose the option "TDA" from the drop-down menu. A new tab with a notebook will open.
 
-## Activating Conda environments
+Click on the button "New" (upper right within the "Files" section) and choose
+the option "TDA" from the drop-down menu. A new tab with a notebook will open.
 
-To activate a Conda environment in the Terminal of JupyterHub you need to specify the absolute path of the environment: `conda activate /miniconda3/envs/my-environment-name`    
+### Activating Conda environments
 
+To activate a Conda environment in the Terminal of JupyterHub you need to
+specify the absolute path of the environment:
+`conda activate /miniconda3/envs/my-environment-name`    
