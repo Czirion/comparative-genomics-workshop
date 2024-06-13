@@ -5,9 +5,26 @@ title: Setup
 
 ## In a Data Carpentry Workshop
 
-During a Data Carpentry Workshop, you'll be supplied with a server by CCM UNAM.
-Your Instructor will provide instructions for connecting to an instance at the
-workshop. You'll need an up-to-date web browser (Firefox, Safari, Chrome or
+Free server access is offered upon request for workshops, and self-learners can also request temporary accounts. 
+Servers are provided by "The Collaborative Community for Genomic Bacterial Analysis and Practice" 
+and the sub-community "The Carpentries México".
+For individuals choosing to follow the lessons on a different computer, step-by-step instructions 
+for configuring remote machines with complete conda environments, as well as a
+[Docker image](https://hub.docker.com/repository/docker/aapashkov/panworkshop), are provided here.
+
+This workshop can also be run on Amazon Web Services (AWS) instances using the Docker image
+(a computer with all the required programs and files to which you will have access from your computer).
+If you are signed up to take a Pangenomics Data Carpentry Workshop,
+**you do not need to worry about setting up an AMI instance.** 
+The Carpentries México staff will create an instance on our local servers for you, which will be free. 
+This setup is true for both self-organized and centrally-organized workshops. 
+Your instructor will provide instructions on how to connect to the AMI instance at the workshop.
+
+If you are in The Carpentries Workshop, you do not even need to install a bash terminal; 
+the Jupyter-Notebook terminal provided in the AMI is enough to run all the commands in the lesson. 
+Instead of connecting by `ssh`, users can simply use the Jupyter Notebook AMI terminal.
+
+What you'll need is an up-to-date web browser (Firefox, Safari, Chrome or
 Edge), and a working spreadsheet program. If you don't have the latter, you can
 install [LibreOffice](https://www.libreoffice.org/download/download-libreoffice/),
 a free and open source office suite which includes a spreadsheet program called
