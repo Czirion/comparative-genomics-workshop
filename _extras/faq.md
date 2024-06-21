@@ -36,38 +36,26 @@ By the end of the workshop, learners will be able to:
 - Use command-line tools to perform genome annotation, homology searches, clustering of gene families and pangenome computing, analysis and visualization
 - Apply TDA concepts in the context of Pangenomics to conduct Horizontal Gene Transfer analaysis
 
-### What are this workshop's software, hardware, and connectivity needs?
+### What are the software, hardware, and connectivity requirements for this workshop?
 
-Learners must bring a laptop (not a tablet) with any spreadsheet program installed (e.g., LibreOffice, Microsoft Excel). Learners using a Windows machine must also download and install [Git for Windows](https://gitforwindows.org/). There are no other hardware or software requirements. Learners will need a stable, strong internet connection to work on the remote computing system used for this workshop. More information is in this workshop's [Setup](https://carpentries-incubator.github.io/metagenomics-workshop/setup.html) page.
+Learners must bring a laptop (not a tablet) with any spreadsheet program installed (e.g., LibreOffice, Microsoft Excel). For those using Windows machine, [Git for Windows](https://gitforwindows.org/) must also be downloaded and installed. There are no additional hardware or software requirements. Learners will need a stable and strong internet connection to work on the remote computing system used in this workshop. For more information, please visit the workshop's [Setup](https://carpentries-incubator.github.io/pangenomics-workshop/setup.html) page.
 
-### My institution has its own compute cluster, or our research group uses a different cloud computing resource. Can we deliver the workshop using that system?
+### Can I use my institution's compute cluster or a different cloud computing resource for this workshop?
+To ensure a consistent experience for learners and instructors, all centrally-organized workshops by The Carpentries use our stable, community-tested curriculum and technical setup. If you wish to use a different platform for a self-organized workshop, our materials are publicly available and licensed under [CC-BY](https://creativecommons.org/licenses/by/4.0/). For more information about centrally-organized versus self-organized workshops and the use of The Carpentries brand, see the [Teaching and Hosting](https://docs.carpentries.org/topic_folders/hosts_instructors/index.html) section of The Carpentries Handbook.
 
-To ensure a consistent workshop experience for learners and Instructors, all workshops organized by The Carpentries (“centrally-organized workshops”) use our stable, community-tested curriculum and technical set-up. Currently, all centrally-organized Metagenomics workshops are taught using AWS, although we are interested in supporting other systems in the future. If you want to use a different platform to teach this curriculum in a self-organized workshop, all our materials are publicly available and licensed [CC-BY](https://creativecommons.org/licenses/by/4.0/). For information about the difference between centrally-organized and self-organized workshops and limitations on the use of “The Carpentries” brand name and logo, see the [Teaching and Hosting](https://docs.carpentries.org/topic_folders/hosts_instructors/index.html) section of The Carpentries Handbook.
-
-### What experience do helpers need to have for this workshop?
-
-Anyone with experience using the Bash shell, Python, and RStudio can be a valuable helper for this workshop. Helpers do not need to have experience working with metagenomics data or the specific command line tools taught in this workshop, although it is preferable. 
-
-### Does the AWS image location matter? Should I set up an AMI in a different region if my workshop will be held outside of the Eastern US?
-
-We have run this workshop in locations across the United States and Europe with no noticeable difference in instance speed. If you experience any issues, please [let us know](mailto:team@carpentries.org).
-
-### Where can I find more information about this workshop?
-For a full description of this workshop, including what content is covered and what dataset we use to teach, visit the [Metagenomics Workshop Overview](https://carpentries-incubator.github.io/metagenomics-workshop/) page. 
+### Where can I find the complete content of this workshop?
+For a full description of this workshop, including the content covered and the dataset used, visit the [Pangenomics Workshop Overview](https://carpentries-incubator.github.io/pangenomics-workshop/)) page. 
 
 ## <a id="instructors"></a> Instructors
 
-### What background and technological skills do I need to have to teach this workshop?
+### What background and technological skills do I need to teach this workshop?
 
-You will need experience using a bash shell (the default shell on Mac OS and most Linux systems), including writing your own small bash scripts and running programs written by others from the command line. You do not need to have specifically used the command-line programs that are used in these lessons. You do not need to have prior experience working with Amazon Web Services (AWS), but some experience logging on to remote computers would be useful. You should have experience working with genomic sequences in FASTQ format. 
+Instructors need experience using Bash shell (the default shell on Mac OS and most Linux systems), including writing small Bash scripts and running programs from the command line. Specific experience with the command-line programs used in the lessons is not required. Prior experience logging into remote computers is useful. Instructors should have experience working with genoic sequences in fastq format. 
 
 ### How can I prepare to teach this material? 
 
-Each lesson has a set of Instructor Notes that provide information about the design of the lesson, commonly encountered problems, and technical tips and tricks. You can access [Instructor Notes](https://carpentries-incubator.github.io/metagenomics-workshop/guide/index.html). Instructor Notes are written collaboratively by our Instructors, so please contribute your notes after your workshop!
+Each lesson includes Instructor Notes that provide information about the lesson design, common problems, and technical tips. Access the [Instructor Notes](https://carpentries-incubator.github.io/pangenomics-workshop/guide/index.html). These notes are written collaboratively by our instructors, so please contribute your insights after your workshop!
 
-### When will I have access to an AWS image to practice on?
-
-Each Instructor will receive connection information for an AMI instance approximately one week before the workshop. If you would like workshop helpers also to have access to an instance to prepare for the workshop, or if you would like access more than one week before the workshop, please contact [team@carpentries.org](mailto:team@carpentries.org).
 
 ### How will my learners get a connection and log-in information? 
 
