@@ -63,11 +63,8 @@ The Carpentries Workshop and Logistics Manager will provide Instructors with con
 
 ### What are common problems that arise during this workshop?
 
-The best place to get information about common problems that arise during workshops is in the [Instructor Notes](https://carpentries-incubator.github.io/metagenomics-workshop/guide/index.html). You can access Instructor Notes through the Extras menu in the top navigation bar that appears across the head of each lesson. Instructors are strongly encouraged to contribute back to the Instructor Notes based on their workshop experience. To contribute to the Instructor Notes, click the “Improve this page” menu option in the upper right corner of the Instructor Notes page. 
+The best source of information about common problems during workshops is the [Instructor Notes](https://carpentries-incubator.github.io/pangenomics-workshop/guide/index.html). Access these notes through the "Extras" menu in the top navigation bar of each lesson. Instructors are encouraged to contribute to the Instructor Notes based on their experiences. To contribute, click the "Improve this page" option in the upper right corner of the Instructor Notes page. 
 
-### Does the AWS image location matter? Should I set up an AMI in a different region if my workshop will be held outside of the Eastern US?
-
-We have run this workshop in locations across the United States and Europe with no noticeable difference in instance speed if you experience any issues, please [let us know](team@carpentries.org).
 
 # Reference
 These notes are adapted from the Data Carpentry Genomics Workshop [corresponding page](https://datacarpentry.org/genomics-workshop/faq/index.html)
