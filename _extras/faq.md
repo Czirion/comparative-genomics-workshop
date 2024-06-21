@@ -22,7 +22,7 @@ The Pangenomics Workshop covers essential skills for pangenomics research, inclu
 
 ### Who is this workshop for and what experience is needed? 
 
-This workshop is designed for individuals interested in Pangenomics research. Attendees do not need prior experience with the tools covered in the workshop. However, some familiarity with biological concepts, suchs as DNA sequences and gene diversity, is expected. 
+This workshop is designed for individuals interested in Pangenomics research. Attendees do not need prior experience with the tools covered in the workshop. However, some familiarity with biological concepts, such as DNA sequences and gene diversity, is expected. 
 
 ### What will learners be able to do by the end of the workshop?
 
@@ -44,22 +44,26 @@ Learners must bring a laptop (not a tablet) with any spreadsheet program install
 To ensure a consistent experience for learners and instructors, all centrally-organized workshops by The Carpentries use our stable, community-tested curriculum and technical setup. If you wish to use a different platform for a self-organized workshop, our materials are publicly available and licensed under [CC-BY](https://creativecommons.org/licenses/by/4.0/). For more information about centrally-organized versus self-organized workshops and the use of The Carpentries brand, see the [Teaching and Hosting](https://docs.carpentries.org/topic_folders/hosts_instructors/index.html) section of The Carpentries Handbook.
 
 ### Where can I find the complete content of this workshop?
-For a full description of this workshop, including the content covered and the dataset used, visit the [Pangenomics Workshop Overview](https://carpentries-incubator.github.io/pangenomics-workshop/)) page. 
+For a full description of this workshop, including the content covered and the dataset used, visit the [Pangenomics Workshop Overview](https://carpentries-incubator.github.io/pangenomics-workshop/) page. 
 
 ## <a id="instructors"></a> Instructors
 
 ### What background and technological skills do I need to teach this workshop?
 
-Instructors need experience using Bash shell (the default shell on Mac OS and most Linux systems), including writing small Bash scripts and running programs from the command line. Specific experience with the command-line programs used in the lessons is not required. Prior experience logging into remote computers is useful. Instructors should have experience working with genoic sequences in fastq format. 
+Instructors need experience using Bash shell (the default shell on Mac OS and most Linux systems), including writing small Bash scripts and running programs from the command line. Specific experience with the command-line programs used in the lessons is not required. Prior experience logging into remote computers is useful. Instructors should have experience working with genomic sequences in fastq format. 
 
 ### How can I prepare to teach this material? 
 
-Each lesson includes Instructor Notes that provide information about the lesson design, common problems, and technical tips. Access the [Instructor Notes](https://carpentries-incubator.github.io/pangenomics-workshop/guide/index.html). These notes are written collaboratively by our instructors, so please contribute your insights after your workshop!
+Each lesson includes [Instructor Notes](https://carpentries-incubator.github.io/pangenomics-workshop/guide/index.html) that provide information about the lesson design, common problems, and technical tips. These notes are written collaboratively by our instructors, so please contribute your insights after your workshop!
 
 
-### How will my learners get a connection and log-in information? 
+### How can I run this workshop for review and practice before teaching it? 
 
-The Carpentries Workshop and Logistics Manager will provide Instructors with connection information for AMI instances the day before the workshop. Enough instances will be provided for each learner and, if requested, for each workshop helper to have their own individual instance. Instructors can make connection information available to learners through the workshop Etherpad. 
+To review and practice this workshop before teaching, refere to the [Setup](https://carpentries-incubator.github.io/pangenomics-workshop/setup.html) section for detailed instructions. You have two main options: 
+- **Data Carpentry Workshop.** You can request access to a local server from CCM UNAM by contacting nselem@matmor.unam.mx to obtain user credentials. The server has all the necessary software pre-installed, allowing you to follow the lesson seamlessly.
+- **Self-run.** You can set up the workshop environment yourself by manually installing all dependencies or using a [Docker image](https://hub.docker.com/repository/docker/aapashkov/panworkshop) that includes everything you need.
+
+Additionally, the setup page provides a [Zenodo link](https://zenodo.org/records/11374283) where you can download all the genomic data used in the lesson.
 
 ### What are common problems that arise during this workshop?
 
