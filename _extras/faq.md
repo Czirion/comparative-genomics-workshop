@@ -59,7 +59,7 @@ Each lesson includes [Instructor Notes](https://carpentries-incubator.github.io/
 
 ### How can I run this workshop for review and practice before teaching it? 
 
-To review and practice this workshop before teaching, refere to the [Setup](https://carpentries-incubator.github.io/pangenomics-workshop/setup.html) section for detailed instructions. You have two main options: 
+To review and practice this workshop before teaching, refer to the [Setup](https://carpentries-incubator.github.io/pangenomics-workshop/setup.html) section for detailed instructions. You have two main options: 
 - **Data Carpentry Workshop.** You can request access to a local server from CCM UNAM by contacting nselem@matmor.unam.mx to obtain user credentials. The server has all the necessary software pre-installed, allowing you to follow the lesson seamlessly.
 - **Self-run.** You can set up the workshop environment yourself by manually installing all dependencies or using a [Docker image](https://hub.docker.com/repository/docker/aapashkov/panworkshop) that includes everything you need.
 
